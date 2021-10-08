@@ -142,7 +142,7 @@ public class SqlReq extends javax.swing.JFrame {
     public SqlReq() {
 
         initComponents();
-        db = new Connect("jdbc:sqlite:.\\bdd.db");
+        db = new Connect("jdbc:sqlite:bdd.db");
     }
 
     /**
